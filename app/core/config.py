@@ -5,6 +5,6 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
-        extra = "allow"  # Разрешаем дополнительные поля в конфигурации
+        extra = "allow"
 
 settings = Settings()

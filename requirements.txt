@@ -5,3 +5,5 @@ SQLAlchemy
 alembic
 pydantic
 pydantic-settings
+passlib
+email-validator
